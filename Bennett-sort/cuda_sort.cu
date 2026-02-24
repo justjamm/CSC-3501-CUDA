@@ -11,8 +11,6 @@
 
 int main(void) {
 
-	std::cout << "Using NVIDIA's Thrust Library (thrust::sort)\n";
-
 	int data_length = 0;
 	std::cout << "Enter length of array: ";
 	std::cin >> data_length;
@@ -40,6 +38,6 @@ int main(void) {
 	}
 
 	sum /= 5;
-	std::cout << "Average: " << sum << " ms.\n";
+	std::cout << "Average: " << sum << " ms\n";
 	return 0;
 }
