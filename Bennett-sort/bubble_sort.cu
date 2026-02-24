@@ -9,8 +9,6 @@
 
 int main(void) {
 
-	std::cout << "Using Bubble Sort\n";
-
 	int data_length = 0;
 	std::cout << "Enter length of array: ";
 	std::cin >> data_length;
