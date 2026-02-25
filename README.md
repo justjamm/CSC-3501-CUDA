@@ -1,12 +1,18 @@
 # CSC-3501 CUDA Presentattion
  ## Sorting Algorithms
 
-Course: CSC 3501 Computer Organization and Design
-Instructor: Felipe Fronchetti
-
-Honors Option Project
-
+__Course__: CSC 3501 Computer Organization and Design<p>
+__Instructor__: Felipe Fronchetti<p>
 __Sorting algorithms__:<p>
-* Bubble Sort
 * std::sort
 * NVIDIA Thrust Sort
+
+## 
+1. Compile using nvcc<p>
+```sh
+nvcc file_name.cu -o file_name
+```
+2. Run the program<p>
+```sh
+./file_name
+```
